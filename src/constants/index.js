@@ -292,6 +292,6 @@ const projects = [
   },
 ];
 
-const resume = "https://drive.google.com/file/d/1AJ6nHCCcGVf0Y_hj89tcPtsCksQQvVA-/view?usp=sharing"
+const resume =  import.meta.env.VITE_RESUME;
  
 export { services, technologies, experiences, testimonials, projects, resume };
